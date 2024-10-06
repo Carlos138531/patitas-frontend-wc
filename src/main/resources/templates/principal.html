@@ -11,28 +11,28 @@
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <div class="mt-5 mb-4">
-            <h1>Home</h1>
-        </div>
-
-        <div class="alert alert-success" role="success" th:if="${loginModel.codigo == '00'}">
-            Bienvenido <span th:text="${loginModel.nombreUsuario}"></span>
-        </div>
-
-        <div class="mb-3">
-            <div class="list-group list-group-horizontal">
-
-                <a href="#" class="list-group-item list-group-item-action active">Home</a>
-                <a href="#" class="list-group-item list-group-item-action">Ver mascotas</a>
-                <a href="#" class="list-group-item list-group-item-action">Hacer donación</a>
-                <a href="#" class="list-group-item list-group-item-action ">Cerrar sesión</a>
-
-            </div>
-        </div>
-
+    <div class="mt-5 mb-4">
+        <h1>Home</h1>
     </div>
+
+    <div class="alert alert-success" role="success" th:if="${loginModel.codigo == '00'}">
+        Bienvenido <span th:text="${loginModel.nombreUsuario}"></span>
+    </div>
+
+    <div class="mb-3">
+        <div class="list-group list-group-horizontal">
+
+            <a href="#" class="list-group-item list-group-item-action active">Home</a>
+            <a href="#" class="list-group-item list-group-item-action">Ver mascotas</a>
+            <a href="#" class="list-group-item list-group-item-action">Hacer donación</a>
+            <a href="#" class="list-group-item list-group-item-action ">Cerrar sesión</a>
+
+        </div>
+    </div>
+
+</div>
 
 </body>
 
